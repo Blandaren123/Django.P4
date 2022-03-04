@@ -1,5 +1,5 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #000000;
 }
 
 .brand {
@@ -10,7 +10,7 @@ body {
 }
 
 .red-o {
-    color: #E84610;
+    color: #997706;
 }
 
 .thin {
@@ -27,6 +27,7 @@ body {
 
 .main-bg {
     background-color: #F9FAFC;
+    background-image: url("https://res.cloudinary.com/blandaren123/image/upload/v1646429692/wallpaperflare.com_wallpaper_vj9lwr.jpg")
 }
 
 .card {
@@ -93,7 +94,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #997706;
 }
 
 .post-title {
