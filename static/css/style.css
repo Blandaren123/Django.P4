@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #F9FAFC;
 }
 
 .brand {
@@ -10,7 +10,7 @@ body {
 }
 
 .red-o {
-    color:gold;
+    color: #E84610;
 }
 
 .thin {
@@ -48,7 +48,7 @@ body {
 
 .author {
     color: white;
-    margin: 1px;
+    margin: 4px;
     text-transform: uppercase;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: gold;
+    color: #E84610;
 }
 
 .post-title {
