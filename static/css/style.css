@@ -10,7 +10,7 @@ body {
 }
 
 .red-o {
-    color: #997706;
+    color:gold;
 }
 
 .thin {
@@ -27,7 +27,6 @@ body {
 
 .main-bg {
     background-color: #F9FAFC;
-    background-image: url("https://res.cloudinary.com/blandaren123/image/upload/v1646429692/wallpaperflare.com_wallpaper_vj9lwr.jpg")
 }
 
 .card {
@@ -49,7 +48,7 @@ body {
 
 .author {
     color: white;
-    margin: 4px;
+    margin: 1px;
     text-transform: uppercase;
 }
 
@@ -94,7 +93,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #997706;
+    color: gold;
 }
 
 .post-title {
