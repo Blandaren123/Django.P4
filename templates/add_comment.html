@@ -5,12 +5,12 @@
 
 
 
-    <h1>Add Comments</h1>
-    <br/><br/>
+<h1>Add Comments</h1>
+<br/><br/>
     <div class="mb-3"></div>
         <form method="POST">
             {% csrf_token %}
             {{ form.as_p }}
             <button class="btn btn-secondary">Add Commet</button>
-    </div>
+</div>
 {% endblock %}
