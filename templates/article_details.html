@@ -23,8 +23,29 @@
 {{ post.body|safe }}
 
 <br/><br/>
-<a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+<hr/>
 
+<h2>Comments...</h2>
+<br/>
+{% if not post.comments.all %}
+    No comments Yet...<a href="{% url 'add_comment' post.pk %}">
+    Add One</a>
+{% else %}
+<br/><br/>
+
+<br/><br/>
+    {% for comment in post.comments.all %}
+    <strong>
+    {{ comment.name }} -
+    {{ comment.date_added }}
+    </strong>
+    <br/>
+    {{ comment.body }}
+    <br/><br/>
+    
+    {% endfor %}
+    <a href="{% url 'add_comment' post.pk %}">Add Comments</a>
+{% endif %}
 <br/><br/>
 <hr/>
 <br/>
@@ -45,5 +66,7 @@
 {% endif %}
     - {{ total_likes }} Likes
 </form>
+<br/><br/>
+<a href="{% url 'add_comment' post.pk %}">Add Comments</a>
 
 {% endblock %}
