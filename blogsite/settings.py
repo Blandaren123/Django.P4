@@ -68,7 +68,7 @@ MESSAGE_TAGS = {
     messages.SUCCESS: 'alert-success',
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
-    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
