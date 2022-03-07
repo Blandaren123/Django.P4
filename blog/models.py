@@ -10,7 +10,6 @@ class Post(models.Model):
     title_tag = models.CharField(max_length=255)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = RichTextField(blank=True, null=True)
-    #body = models.TextField()
     post_date = models.DateField(auto_now_add=True)
     snippet = models.CharField(max_length=255)
     likes = models.ManyToManyField(User, related_name='blog_posts')
@@ -22,8 +21,8 @@ class Post(models.Model):
         return self.title + ' | ' + str(self.author)
 
     def get_absolute_url(self):
-        #return reverse('article-detail', kwargs={"pk": self.id})
         return reverse('home')
+
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, related_name="comments", on_delete=models.CASCADE)
