@@ -1,108 +1,143 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Travelers Guide!
 
-Welcome Blandaren123,
+[Live application can be found here](https://djangobloggsite2.herokuapp.com/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Purpose of the project
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The purpose of this page is for travelers to post their tips or tell about their travels.
+In a community, people can comment and plan their next vacation by posting where they want to go
+Or give advice based on places they've visited
+In other words, it's like a traveling community
 
-## Gitpod Reminders
+# User stories
+Here is Kanban for user story [here](https://github.com/Blandaren123/Django.P4/projects/2)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. As a Site user/ admin I can like or unlike post so That i can see what i like or unlike
+2. As a Admin I can Access my adming panel so That i can manage posts and comments
+3. As a User/Admin I can Delete Posts/comments so That i can delete post or comments if i regret
+4. As a User I can Click on a post so That I can View the deatails
+5. As a User I can create an account so That i Can Interact with other users or comment
+6. As a User/admin I can write html code so That get better styling in Post
+7. As a User I can only edit or delete my own post so That nobody can delete or edit my own post
+8. As a User I can Use emojis or picture and styling text so That when i write a post i can style the text with emojis and pictures
+9. As a user I can edit my profile so That All my data is correct
+10. As a user I can change password so That if i want a new password i change
+11. As a User I can sign up/log in and comment so That other can see and up or down vote
 
-`python3 -m http.server`
+# Databases
+blog community
+![image info](assets/images/Datamodels.png)
 
-A blue button should appear to click: _Make Public_,
+# Features
+- __Navigation Bar__
+  * The navigation bar is fully responsive, allowing users to navigate easily from Logo, About, Join Now, and Contact all on one page.
+  * By using this section, the user can easily navigate between sections across all devices without having to switch back to the previous one.
+  * The underline highlight the section where you are.
 
-Another blue button should appear to click: _Open Browser_.
+![image info](./assets/images/readme/navbar.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __First section image and Header__
+  * The gym pictures on this page illustrate what this page is all about.
+  * The wake up call quotes that motivate people.
+  * Making it look simple is the first step for that is all it takes. 
+  * Some background information about the gym
+  * There is a Join button so you can directly go to the sign-up form
 
-A blue button should appear to click: _Make Public_,
+![image info](./assets/images/readme/section1.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+- __About section__
+  * A very experienced owner owns this gym, which has just opened its doors.
+  * The top reasons not to go to another gym but this one.
+  * Accessible 24 hours a day.
+  * Photograph of the personal trainer/owner
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![image info](./assets/images/readme/section2.PNG)
 
-To log into the Heroku toolbelt CLI:
+- __Join Now__
+  * A great opportunity to join us now.
+  * To submit, all fields must be filled out.
+  * Hover over the borderline and a red color will indicate what field you're on.
+  * The submit button is highlighted in red and white text.
+  * All black background to match the color for the website
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![image info](./assets/images/readme/form.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+- __Contact and Address__
+  * There is an address for where the facility is located, as well as an e-mail and phone number.
+  * The hours during which manned operators are available.
+  * Follow us on social media or look for inspiration with this big social icon.
+  * Button for going all up, if you dont want to scroll in mobile version
 
-## Release History
+![image info](./assets/images/readme/footer.lastsection.PNG)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Futures implement
+  * Picture gallery with inspiring quotes along with the pictures.
+  * An online booking system to book training sessions.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Typography and color scheme
+- Color: white, gray and black
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# wireframes
+- __wireframes desktop__
+![image info](./assets/images/readme/wireframes1.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __wireframes phone__
+![image info](./assets/images/readme/wireframes2.PNG)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Technology
+- Wireframes for layout on desktop and mobile in Balsamiq tools.
+- This site was laid out and structured using HTML.
+- Style and appearance using CSS.
+- Use Github to deploy the project and read the README.
+- Gitpod is used for coding.
+- CodeInstuite project, YouTube, and Google for tutorials and troubleshooting.
+- Skype for contact with the mentor for tips and advice. 
+- jigsaw, W3c and lighthouse for testing and troubleshoot.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- I tested this side on Microsoft edge and Chrome and it seems to works great.
+- The page is viewable on desktops, iPads, and phones when I tested.
+- I can confirmed All sections such as the navigation bar, logo, about and join now section are operational and easy to use.
+- I verified that the Join Now form works and I made sure all entries were required to be submitted.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Bugs__
+- When targeting the icon element, I tried different code because it was very small and had purple color.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![image info](./assets/images/readme/bugg.test1.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- When I turned to Google, I found how to solve the problem
+- solving with this 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![image info](./assets/images/readme/bugg.test2.png) worked fine
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Validator Testing 
+## HTML
+- No Error on the official [w3c HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblandaren123.github.io%2FTeds-gym%2F)
+## CSS
+- No Error on the official [jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fblandaren123.github.io%2FTeds-gym%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+## Accessbility
+- It's confirmed that the colors and fonts chosen are readable in devtools when tested through Lighthouse
+![image info](./assets/images/readme/lighthouse.PNG)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Unfixed Bugs
+No Unfixed Bugs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Deployment
+- This site was published through GitHub pages. To promote the site, follow these steps:
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Main Branch
+3. When the main branch is selected, a detailed ribbon display will show to indicate the successful deployment.
 
-------
+Here is the link [Teds](https://blandaren123.github.io/Teds-gym/)
 
-## FAQ about the uptime script
+# Credits
+## Contents
+- The quotations were taken from Google and written by Napoleon Hill
+- The Form was taken from [Love running](https://github.com/Code-Institute-Org/love-running-2.0) and mix with youtuber tutorial [here](https://www.youtube.com/watch?v=UEZ60e4MsgA&t=643s).
+- icon for links from [fontawesome](https://fontawesome.com/)
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Media
+- The image for Header and about was taken from [pexels](https://www.pexels.com/sv-se/)
