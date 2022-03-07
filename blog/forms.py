@@ -6,7 +6,6 @@ class PostForm(forms.ModelForm):
     class Meta:
         model = Post
         fields = ('title', 'title_tag', 'author', 'body', 'snippet')
-
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
             'title_tag': forms.TextInput(attrs={'class': 'form-control'}),
@@ -20,7 +19,6 @@ class EditForm(forms.ModelForm):
     class Meta:
         model = Post
         fields = ('title', 'title_tag', 'body', 'snippet')
-
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
             'title_tag': forms.TextInput(attrs={'class': 'form-control'}),

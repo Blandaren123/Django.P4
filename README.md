@@ -25,18 +25,26 @@ Here is Kanban for user story [here](https://github.com/Blandaren123/Django.P4/p
 11. As a User I can sign up/log in and comment so That other can see and up or down vote
 
 # Databases
-blog community
-![image info](assets/images/Datamodels.png)
+Easy sign up and posting for a blog community
+
+
+![image info](/static/images/Datamodels.png)
+
+# Wireframes
+![image info](/static/images/wirframemo.PNG) ![image info](/static/images/wurreframewin.PNG)
+
+With a design that follows through the theme of simplicity, the pages are divided by bootstrap columns and rows, and the layout is kept consistent so that the user feels at ease at all times.
 
 # Features
 - __Navigation Bar__
-  * The navigation bar is fully responsive, allowing users to navigate easily from Logo, About, Join Now, and Contact all on one page.
-  * By using this section, the user can easily navigate between sections across all devices without having to switch back to the previous one.
-  * The underline highlight the section where you are.
+  * The navigation bar is fully responsive, allowing users to navigate easily.
+  * A fast and easy way to register and log in.
+  * Design with easy color and minimalist style.
+  * The navbar changes to add posts, edit profiles, and logout once you are logged in
 
-![image info](./assets/images/readme/navbar.png)
+![image info](/static/images/navbars.PNG)
 
-- __First section image and Header__
+- __Add Post__
   * The gym pictures on this page illustrate what this page is all about.
   * The wake up call quotes that motivate people.
   * Making it look simple is the first step for that is all it takes. 
