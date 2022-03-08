@@ -19,10 +19,9 @@ Here is Kanban for user story [here](https://github.com/Blandaren123/Django.P4/p
 5. As a User I can create an account so That i Can Interact with other users or comment
 6. As a User/admin I can write html code so That get better styling in Post
 7. As a User I can only edit or delete my own post so That nobody can delete or edit my own post
-8. As a User I can Use emojis or picture and styling text so That when i write a post i can style the text with emojis and pictures
-9. As a user I can edit my profile so That All my data is correct
-10. As a user I can change password so That if i want a new password i change
-11. As a User I can sign up/log in and comment so That other can see and up or down vote
+8. As a user I can edit my profile so That All my data is correct
+9. As a user I can change password so That if i want a new password i change
+10. As a User I can sign up/log in and comment so That other can see and up or down vote
 
 # Databases
 Easy sign up and posting for a blog community
@@ -45,57 +44,32 @@ With a design that follows through the theme of simplicity, the pages are divide
 ![image info](/static/images/navbars.PNG)
 
 - __Add Post__
-  * The gym pictures on this page illustrate what this page is all about.
-  * The wake up call quotes that motivate people.
-  * Making it look simple is the first step for that is all it takes. 
-  * Some background information about the gym
-  * There is a Join button so you can directly go to the sign-up form
+  * Minimal post additions
 
-![image info](./assets/images/readme/section1.PNG)
+![image info](/static/images/post.PNG)
 
-- __About section__
-  * A very experienced owner owns this gym, which has just opened its doors.
-  * The top reasons not to go to another gym but this one.
-  * Accessible 24 hours a day.
-  * Photograph of the personal trainer/owner
+- __Comments__
+  * Everyone can comment easily and quickly
+ 
 
-![image info](./assets/images/readme/section2.PNG)
+![image info](/static/images/comments.PNG)
 
-- __Join Now__
-  * A great opportunity to join us now.
-  * To submit, all fields must be filled out.
-  * Hover over the borderline and a red color will indicate what field you're on.
-  * The submit button is highlighted in red and white text.
-  * All black background to match the color for the website
+- __Click to View__
+  * Simply click a post to open it and read it
 
-![image info](./assets/images/readme/form.PNG)
+![image info](/static/images/clicker.PNG)
 
-
-- __Contact and Address__
-  * There is an address for where the facility is located, as well as an e-mail and phone number.
-  * The hours during which manned operators are available.
-  * Follow us on social media or look for inspiration with this big social icon.
-  * Button for going all up, if you dont want to scroll in mobile version
-
-![image info](./assets/images/readme/footer.lastsection.PNG)
 
 # Futures implement
-  * Picture gallery with inspiring quotes along with the pictures.
-  * An online booking system to book training sessions.
+  * A picture gallery section with inspiration for different places
+  * An online booking system to book Vacation.
 
 # Typography and color scheme
-- Color: white, gray and black
-
-# wireframes
-- __wireframes desktop__
-![image info](./assets/images/readme/wireframes1.PNG)
-
-- __wireframes phone__
-![image info](./assets/images/readme/wireframes2.PNG)
+- Color: white, gray and almost pink background
 
 # Technology
 - Wireframes for layout on desktop and mobile in Balsamiq tools.
-- This site was laid out and structured using HTML.
+- This site was laid out and structured using HTML, Python, Javascript, Django
 - Style and appearance using CSS.
 - Use Github to deploy the project and read the README.
 - Gitpod is used for coding.
@@ -105,47 +79,88 @@ With a design that follows through the theme of simplicity, the pages are divide
 
 
 # Testing
+- ## I Used manual testing for this Project
 
 - I tested this side on Microsoft edge and Chrome and it seems to works great.
 - The page is viewable on desktops, iPads, and phones when I tested.
-- I can confirmed All sections such as the navigation bar, logo, about and join now section are operational and easy to use.
-- I verified that the Join Now form works and I made sure all entries were required to be submitted.
+- I can confirmed All sections such as the navigation bar section are operational and easy to use.
+
+- ## As Guest 
+- Can enter post and comments with name.
+- click to view the post.
+
+- ## As Registered and Logged in User
+- Can like a post
+- Can change and edit your own Post
+- Can Edit profile and Change password
+
+- ## Test Person 
+- let my Friends and family test to see if it works as it should.
+
 
 - __Bugs__
-- When targeting the icon element, I tried different code because it was very small and had purple color.
+- Wrote templates wrong when so it doesnt find the files
 
-![image info](./assets/images/readme/bugg.test1.png)
+![image info](/static/images/bug.PNG)
 
-- When I turned to Google, I found how to solve the problem
+- Write Templates on the right way
 - solving with this 
 
-![image info](./assets/images/readme/bugg.test2.png) worked fine
+![image info](/static/images/bugfix.PNG) worked fine
 
 # Validator Testing 
-## HTML
-- No Error on the official [w3c HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblandaren123.github.io%2FTeds-gym%2F)
-## CSS
-- No Error on the official [jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fblandaren123.github.io%2FTeds-gym%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+## HTML and CSS
+- No Error on the official 
+
+
+![image info](/static/images/Wc3.PNG)
+
+
 ## Accessbility
 - It's confirmed that the colors and fonts chosen are readable in devtools when tested through Lighthouse
-![image info](./assets/images/readme/lighthouse.PNG)
+
+![image info](/static/images/lighthouse.PNG)
+
+
+## Python
+- Pep8 test
+Had only lines to long nothing more
+
+![image info](/static/images/pep8test.PNG)
 
 # Unfixed Bugs
-No Unfixed Bugs
+Yes i have this on site that i cant fix in Edit Profile
+
+![image info](/static/images/Buuugs.PNG)
 
 # Deployment
-- This site was published through GitHub pages. To promote the site, follow these steps:
-1. In the GitHub repository, navigate to the Settings tab
-2. From the source section drop-down menu, select the Main Branch
-3. When the main branch is selected, a detailed ribbon display will show to indicate the successful deployment.
+I used Gitpod to develop the project. I contributed all changes to git version control, and I saved changes to GitHub using the push command in Gitpod.
 
-Here is the link [Teds](https://blandaren123.github.io/Teds-gym/)
+## Heroku
+Ensure your project has these two files before building a Heroku app: requirements.txt - This is created by pip3 freeze --local > requirements.txt Procfile - This is created by echo web: python run.py > Procfile
+
+## Setting up deployment
+- DATABASE_URL must be added to settings.py temporarily:
+- To migrate the database models in the project to the Postgres database, run the following command: python3 manage.py migrate
+- check git.ignore if env.py is there
+- If you want your Heroku app to be deployed directly from a Github repository, you can do so as follows: On the deploy tab of your Heroku app, select GitHub - Connect to GitHub. If not already logged in, sign up with GitHub. We will then prompt you to find a Github repository to connect to.
+
+- To deploy your app to Heroku click the "Deploy Branch" button.
+
 
 # Credits
 ## Contents
-- The quotations were taken from Google and written by Napoleon Hill
-- The Form was taken from [Love running](https://github.com/Code-Institute-Org/love-running-2.0) and mix with youtuber tutorial [here](https://www.youtube.com/watch?v=UEZ60e4MsgA&t=643s).
-- icon for links from [fontawesome](https://fontawesome.com/)
+- Bootsraps was taken from [here](https://getbootstrap.com/)
+- youtuber tutorial [here](https://www.youtube.com/playlist?list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi).
+- Slacks for some bug fixes
+- Cloudinary [here](https://cloudinary.com/?utm_source=google&utm_medium=cpc&utm_campaign=Rbrand&utm_content=483362991544&utm_term=cloudinary&gclid=Cj0KCQiA95aRBhCsARIsAC2xvfwkb-wCh-OYhKE-Xy-ND5gOUxKzbTvIo_3zJCxu0V9aNLUKTfFftl4aAjqTEALw_wcB). for easy upload
 
 ## Media
-- The image for Header and about was taken from [pexels](https://www.pexels.com/sv-se/)
+- some Post picture was taken from [pexels](https://www.pexels.com/sv-se/)
+
+# Acknowledgements
+- my mentor, I receive support, advice, and feedback.
+- Slack for all the help with Bug and advice
+- Friends and Family that test it
+
